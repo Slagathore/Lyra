@@ -13,6 +13,19 @@ dist/
 *.db
 conversation_history.*
 chat_history.*
+# Ignore the lyra_env folder and all its contents
+lyra_env/
+# Ignore all files and subfolders within the lyra_env folder
+lyra_env/**
+# Ignore all files and subfolders within the lyra_env folder
+lyra_env/*
+# Ignore the lyra_env folder and all its contents
+venv/**/*/
+venv/*/
+venv/
+
+
+
 
 # Sensitive data
 .env

@@ -67,11 +67,6 @@
     "search_provider": "duckduckgo",
     "cache_duration": 3600
   },
-  "telegram": {
-    "enabled": true,
-    "bot_token": "7797164236:AAH-hkzzrlFZ8Eo2DNYNeepNrXlt_sWXUJo",
-    "allowed_user_ids": [20899497]
-  },
   "external_tools": {
     "sillytavern_path": "G:\\AI\\Lyra\\BigModes\\SillyTavern",
     "llama_cpp_path": "G:\\AI\\Lyra\\BigModes\\ComfyUI_GGUF_windows_portable\\ComfyUI",

@@ -1,0 +1,8 @@
+{
+  "model_name": "Qwen2.5-72B GGUF tt - Qwen2.5-72B-Instruct-abliterated.i1-Q4_K_M",
+  "model_path": "G:\\AI\\Lyra\\BigModes\\TT Models\\Qwen2.5-72B GGUF tt\\Qwen2.5-72B-Instruct-abliterated.i1-Q4_K_M.gguf",
+  "model_type": "llama",
+  "format": "default",
+  "context_size": 4096,
+  "n_gpu_layers": 8
+}

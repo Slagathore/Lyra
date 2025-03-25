@@ -1,0 +1,8 @@
+{
+  "model_name": "",
+  "model_path": "",
+  "model_type": "llama",
+  "format": "chatml",
+  "context_size": 4096,
+  "n_gpu_layers": 47
+}

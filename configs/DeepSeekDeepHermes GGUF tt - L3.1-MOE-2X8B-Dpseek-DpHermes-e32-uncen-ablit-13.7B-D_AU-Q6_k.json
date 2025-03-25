@@ -1,0 +1,8 @@
+{
+  "model_name": "DeepSeekDeepHermes GGUF tt - L3.1-MOE-2X8B-Dpseek-DpHermes-e32-uncen-ablit-13.7B-D_AU-Q6_k",
+  "model_path": "G:\\AI\\Lyra\\BigModes\\TT Models\\DeepSeekDeepHermes GGUF tt\\L3.1-MOE-2X8B-Dpseek-DpHermes-e32-uncen-ablit-13.7B-D_AU-Q6_k.gguf",
+  "model_type": "llama",
+  "format": "default",
+  "context_size": 4096,
+  "n_gpu_layers": 28
+}

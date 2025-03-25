@@ -1,0 +1,7 @@
+{
+  "model_name": "Qwen2.5-QwQ-35B-Eureka-3-ablit-uncen GGUF tt - Qwen2.5-QwQ-35B-Eureka-Cubed-abliterated-uncensored-D_AU-Q5_k_s",
+  "model_path": "G:\\AI\\Lyra\\BigModes\\TT Models\\Qwen2.5-QwQ-35B-Eureka-3-ablit-uncen GGUF tt\\Qwen2.5-QwQ-35B-Eureka-Cubed-abliterated-uncensored-D_AU-Q5_k_s.gguf",
+  "model_type": "llama",
+  "context_size": 4096,
+  "n_gpu_layers": 0
+}

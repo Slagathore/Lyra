@@ -1,0 +1,79 @@
+==================================================
+ CUDA Detection and Diagnostics Tool for Lyra 
+==================================================
+
+System: Windows 10 AMD64
+Python: 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]
+
+CUDA Environment Variables:
+CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8
+CUDA_HOME: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8
+CUDA_VISIBLE_DEVICES: 0
+PYTHONPATH: C:\Program Files\PerkinElmerInformatics\ChemOffice2021\ChemScript\Lib
+LD_LIBRARY_PATH: Not set
+NVIDIA System Management Interface detected:
+Wed Mar 19 02:38:33 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 572.70                 Driver Version: 572.70         CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 4070 Ti   WDDM  |   00000000:01:00.0  On |                  N/A |
+|  0%   39C    P8             11W /  285W |    2500MiB /  12282MiB |      1%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            2208    C+G   ...ms\Microsoft VS Code\Code.exe      N/A      |
+|    0   N/A  N/A            4164    C+G   ...s\Mullvad VPN\Mullvad VPN.exe      N/A      |
+|    0   N/A  N/A            4624    C+G   ...l\Programs\Opera GX\opera.exe      N/A      |
+|    0   N/A  N/A           10392    C+G   ...s\Lively Wallpaper\Lively.exe      N/A      |
+|    0   N/A  N/A           14820    C+G   ...__kzh8wxbdkxb8p\DCv2\DCv2.exe      N/A      |
+|    0   N/A  N/A           16704    C+G   C:\Windows\explorer.exe               N/A      |
+|    0   N/A  N/A           17196    C+G   ....0.3124.72\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A           17624    C+G   ..._cw5n1h2txyewy\SearchHost.exe      N/A      |
+|    0   N/A  N/A           17648    C+G   ...y\StartMenuExperienceHost.exe      N/A      |
+|    0   N/A  N/A           18520    C+G   ....0.3124.72\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A           20056    C+G   ...5n1h2txyewy\TextInputHost.exe      N/A      |
+|    0   N/A  N/A           20296    C+G   C:\Windows\explorer.exe               N/A      |
+|    0   N/A  N/A           20668    C+G   ...2p2nqsd0c76g0\app\ChatGPT.exe      N/A      |
+|    0   N/A  N/A           21204    C+G   ...lus\logioptionsplus_agent.exe      N/A      |
+|    0   N/A  N/A           22128    C+G   ...xyewy\ShellExperienceHost.exe      N/A      |
+|    0   N/A  N/A           22964    C+G   ...cord\app-1.0.9186\Discord.exe      N/A      |
+|    0   N/A  N/A           23776    C+G   ...em_tray\lghub_system_tray.exe      N/A      |
+|    0   N/A  N/A           26608    C+G   ...l\Programs\Opera GX\opera.exe      N/A      |
+|    0   N/A  N/A           33556    C+G   ...ntrolPanel\SystemSettings.exe      N/A      |
+|    0   N/A  N/A           35256    C+G   ...grams\LM Studio\LM Studio.exe      N/A      |
+|    0   N/A  N/A           36332      C   ...grams\LM Studio\LM Studio.exe      N/A      |
+|    0   N/A  N/A           40796    C+G   ...efSharp.BrowserSubprocess.exe      N/A      |
+|    0   N/A  N/A           40952    C+G   ...8bbwe\PhoneExperienceHost.exe      N/A      |
+|    0   N/A  N/A           44428    C+G   ...t\Edge\Application\msedge.exe      N/A      |
++-----------------------------------------------------------------------------------------+
+
+Searching for CUDA DLLs in common locations...
+Found CUDA DLLs at: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\cudart64_12.dll
+Parent directory: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin
+
+PyTorch CUDA Information:
+PyTorch version: 2.6.0+cpu
+CUDA available: False
+
+llama-cpp-python not installed. Cannot check CUDA support.
+
+==================================================
+ CUDA Check Summary 
+==================================================
+NVIDIA drivers detected: True
+CUDA environment variables found: True
+CUDA DLLs found: True
+PyTorch CUDA support: False
+llama-cpp-python CUDA support: False
+
+Your GPU was detected, but llama-cpp-python CUDA support is not working.
+Please run fix_llm_errors.bat to install a CUDA-enabled version.

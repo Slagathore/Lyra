@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "lyra"
+version = "0.1.0"
+description = "A self-improving AI with recursive learning and modular tool integration"
+authors = ["Cole <charcham7@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lyra", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+# Core dependencies
+numpy = "*"
+python-dotenv = "*"
+sqlalchemy = "<2.0.0"
+sqlalchemy-utils = "*"
+
+# Embedding and vector search 
+faiss-cpu = ">=1.7.0"  # Change to faiss-gpu if you have CUDA
+textblob = ">=0.17.1"
+sentence-transformers = ">=2.2.2"
+
+# Local LLM dependencies
+llama-cpp-python = {version = ">=0.2.10", optional = true}
+transformers = {version = ">=4.36.0", optional = true}
+accelerate = {version = ">=0.25.0", optional = true}
+bitsandbytes = {version = ">=0.41.0", optional = true}
+
+# For video generation
+diffusers = {version = ">=0.25.0", optional = true}
+torch = {version = ">=2.1.0", optional = true}
+
+# Optional dependencies
+openai = {version = ">=1.0.0", optional = true}
+langchain = {version = ">=0.0.267", optional = true}
+langchain-openai = {version = ">=0.0.1", optional = true}
+rasa = {version = ">=3.6.21,<4.0.0", extras = ["full"], optional = true}
+
+# Utility libraries
+tqdm = "*"
+requests = ">=2.28.0"
+
+[tool.poetry.extras]
+local-llm = ["llama-cpp-python", "transformers", "accelerate", "bitsandbytes", "torch"]
+video = ["diffusers", "torch"]
+openai = ["openai", "langchain", "langchain-openai"]
+rasa = ["rasa"]
+all = ["llama-cpp-python", "transformers", "accelerate", "bitsandbytes", "torch", "diffusers", "openai", "langchain", "langchain-openai", "rasa"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+lyra = "lyra.main:main"

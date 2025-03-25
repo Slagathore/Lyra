@@ -1,0 +1,9 @@
+{
+  "root_path": "G:\\AI\\Lyra",
+  "model_path": "G:\\AI\\Lyra\\BigModes\\Qwen2.5-QwQ-35B-Eureka-3-ablit-uncen-gguf\\Qwen2.5-QwQ-35B-Eureka-Cubed-abliterated-uncensored-D_AU-Q6_k.gguf",
+  "data_path": "G:\\AI\\Lyra\\data",
+  "logs_path": "G:\\AI\\Lyra\\logs",
+  "temp_path": "G:\\AI\\Lyra\\temp",
+  "cuda_path": "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8",
+  "use_c_drive_cuda": true
+}

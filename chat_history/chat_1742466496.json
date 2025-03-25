@@ -1,0 +1,18 @@
+{
+  "history": [
+    [
+      "hi there",
+      "Failed to load model: DarkChampion GGUF tt - L3.2-8X4B-MOE-V2-Dark-Champion-Inst-21B-uncen-ablit-D_AU-IQ4_XS"
+    ],
+    [
+      "hi",
+      "Failed to load model: DeepSeekDeepHermes GGUF tt - L3.1-MOE-2X8B-Dpseek-DpHermes-e32-uncen-ablit-13.7B-D_AU-Q3_k_m"
+    ],
+    [
+      "hi",
+      "\ud83e\udd16 Hello there! How can I assist you today?"
+    ]
+  ],
+  "timestamp": 1742466710.1747534,
+  "model": "Wizard GGUF tt - WizardLM-30B-Uncensored-Guanaco-SuperCOT-30b.i1-Q4_K_M"
+}

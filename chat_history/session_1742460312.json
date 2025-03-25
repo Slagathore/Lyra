@@ -1,0 +1,18 @@
+{
+  "session_id": "session_1742460312",
+  "timestamp": 1742460486.174444,
+  "history": [
+    [
+      "hi there",
+      "Failed to load model: DarkChampion GGUF tt - L3.2-8X4B-MOE-V2-Dark-Champion-Inst-21B-uncen-ablit-D_AU-IQ4_XS"
+    ],
+    [
+      "hi there",
+      "Failed to load model: DeepSeekDeepHermes GGUF tt - L3.1-MOE-2X8B-Dpseek-DpHermes-e32-uncen-ablit-13.7B-D_AU-Q6_k"
+    ],
+    [
+      "honk",
+      " Blipmech Mini GGUF tt - L2.3-4X2C-MnI-2b-Blipmec-Honk-Fcn-120W-uncen-1kg-D_AU-Q7_x"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "model_name": "cognitivecomputations_Dolphin3.0-R1-Mistral-24B-IQ3_XS",
+  "model_path": "G:\\AI\\Lyra\\BigModes\\TT Models\\cognitivecomputations_Dolphin3.0-R1-Mistral-24B-IQ3_XS.gguf",
+  "model_type": "llama",
+  "format": "default",
+  "context_size": 4096,
+  "n_gpu_layers": 32
+}

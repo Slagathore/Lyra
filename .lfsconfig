@@ -1,0 +1,3 @@
+[lfs]
+	batch = true
+	concurrenttransfers = 8

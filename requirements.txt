@@ -1,0 +1,50 @@
+# Core dependencies
+rasa>=3.6.21,<4.0.0
+openai>=1.0.0
+langchain>=0.0.267
+langchain-openai>=0.0.1
+sqlalchemy
+sqlalchemy-utils
+numpy>=1.22.0
+python-dotenv
+
+# Vector search (choose one)
+faiss-cpu>=1.7.0
+# faiss-gpu>=1.7.0  # Uncomment to use GPU version
+
+# NLP libraries
+textblob>=0.17.1
+sentence-transformers>=2.2.2
+transformers
+spacy
+nltk
+scikit-learn
+
+# Additional utilities
+requests>=2.25.0
+matplotlib
+emoji
+huggingface_hub
+pytesseract
+Pillow>=9.0.0
+beautifulsoup4
+psutil
+llama-cpp-python[server]
+# Specify a version range for Gradio that works with our code
+gradio>=3.50.2,<=4.40.0
+llama-cpp-python>=0.2.0
+jsonschema>=4.0.0
+pathlib>=1.0.1
+pydantic>=2.0.0
+
+# Core requirements
+pystray>=0.19.4
+pillow>=9.0.0
+psutil>=5.9.0
+pywin32>=305;platform_system=="Windows"
+
+# Voice and media support
+pyttsx3>=2.90
+SpeechRecognition>=3.8.1
+pyaudio>=0.2.11
+comtypes>=1.1.14;platform_system=="Windows"

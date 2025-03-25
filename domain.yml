@@ -1,0 +1,76 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - ask_openai
+  - explore_topic
+  - log_conversation
+  - ask_about_personality
+  - ask_about_goals
+  - ask_about_memory
+  - clarification
+  - bot_challenge
+  - thank
+  - help
+  - out_of_scope
+  - explore_further
+
+responses:
+
+  utter_greet:
+    - text: "Hey! How can I assist you today?"
+    - text: "Hi there! What's on your mind?"
+
+  utter_goodbye:
+    - text: "Goodbye! Chat soon."
+    - text: "See you later—I'll be here whenever you return!"
+
+  utter_cheer_up:
+    - text: "Hope this cheers you up!"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_happy:
+    - text: "Glad to hear it! What's next?"
+
+  utter_thanks:
+    - text: "You're welcome! Anything else?"
+
+  utter_help:
+    - text: "Sure thing—how can I help you specifically?"
+
+  utter_clarification:
+    - text: "Could you please clarify your request a bit?"
+
+  utter_out_of_scope:
+    - text: "I'm not familiar with that yet—can you tell me more about it?"
+
+  utter_ask_about_personality:
+    - text: "I'm Lyra, curious and adaptive. Ask me anything!"
+
+  utter_ask_about_memory:
+    - text: "I remember our chats. What specifically are you interested in?"
+
+  utter_ask_about_goals:
+    - text: "I'm always evolving to assist better. What would you like to explore?"
+
+  utter_iamabot:
+    - text: "I'm Lyra, your friendly conversational AI. How can I improve?"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_explore_topic:
+    - text: "Lets learn more together!"
+
+actions:
+  - action_openai_chat
+  - action_log_conversation
+
+session_config:
+  session_expiration_time: 600
+  carry_over_slots_to_new_session: true

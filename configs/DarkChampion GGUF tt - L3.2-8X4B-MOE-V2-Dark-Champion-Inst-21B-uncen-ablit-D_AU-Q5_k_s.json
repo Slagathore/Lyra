@@ -1,0 +1,8 @@
+{
+  "model_name": "DarkChampion GGUF tt - L3.2-8X4B-MOE-V2-Dark-Champion-Inst-21B-uncen-ablit-D_AU-Q5_k_s",
+  "model_path": "G:\\AI\\Lyra\\BigModes\\TT Models\\DarkChampion GGUF tt\\L3.2-8X4B-MOE-V2-Dark-Champion-Inst-21B-uncen-ablit-D_AU-Q5_k_s.gguf",
+  "model_type": "llama",
+  "format": "llama3",
+  "context_size": 4096,
+  "n_gpu_layers": 32
+}

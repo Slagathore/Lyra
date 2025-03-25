@@ -1,0 +1,88 @@
+version: "3.1"
+
+rules:
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Goodbye rule
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Handle affirmations
+  steps:
+  - intent: affirm
+  - action: utter_happy
+
+- rule: respond to thanks
+  steps:
+  - intent: thank
+  - action: utter_thanks
+
+- rule: Handle denials
+  steps:
+  - intent: deny
+  - action: utter_clarification
+
+- rule: Log all explicit requests
+  steps:
+  - intent: log_conversation
+  - action: action_log_conversation
+
+- rule: Handle questions about personality
+  steps:
+  - intent: ask_about_personality
+  - action: utter_ask_about_personality
+
+- rule: Handle memory inquiries
+  steps:
+  - intent: ask_about_memory
+  - action: utter_ask_about_memory
+
+- rule: Handle bot challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Explore topics dynamically
+  steps:
+  - intent: explore_topic
+  - action: action_openai_chat
+
+- rule: Clarification requests
+  steps:
+  - intent: clarification
+  - action: utter_clarification
+
+- rule: Handle openai related inquiries
+  steps:
+  - intent: ask_openai
+  - action: action_openai_chat
+
+- rule: Handle great moods
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+
+- rule: Handle unhappy moods
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+
+- rule: Respond to bot challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Handle help requests
+  steps:
+  - intent: help
+  - action: utter_help
+
+- rule: Respond to out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope

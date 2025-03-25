@@ -1,0 +1,128 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - yo
+    - what's up
+
+- intent: goodbye
+  examples: |
+    - goodbye
+    - see you later
+    - bye
+    - later
+    - talk later
+
+- intent: affirm
+  examples: |
+    - yes
+    - correct
+    - absolutely
+    - sure
+    - definitely
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - not really
+    - don't think so
+    - nevermind
+
+- intent: mood_great
+  examples: |
+    - I'm feeling great
+    - fantastic
+    - amazing
+    - I'm good
+    - doing well
+
+- intent: mood_unhappy
+  examples: |
+    - I'm feeling bad
+    - sad
+    - unhappy
+    - feeling down
+    - not so good
+
+- intent: ask_openai
+  examples: |
+    - what is openai
+    - tell me about openai
+    - give me info on openai
+    - what's openai about?
+
+- intent: explore_topic
+  examples: |
+    - can we discuss [AI technology](topic)?
+    - let's talk about [quantum computing](topic)
+    - tell me more about [biology](topic)
+
+- intent: log_conversation
+  examples: |
+    - log this please
+    - save our conversation
+    - log this chat
+    - keep track of this conversation
+
+- intent: ask_about_personality
+  examples: |
+    - describe your personality
+    - tell me about yourself
+    - who are you exactly?
+
+- intent: ask_about_goals
+  examples: |
+    - what's your goal?
+    - what are you trying to achieve?
+    - what is your purpose?
+
+- intent: ask_about_memory
+  examples: |
+    - what do you remember?
+    - recall our last conversation
+    - do you remember?
+
+- intent: clarification
+  examples: |
+    - can you clarify?
+    - explain that better please
+    - I'm confused
+    - what do you mean?
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - I appreciate it
+    - much appreciated
+    - thx
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - am I talking to a real person?
+    - you're AI, right?
+
+- intent: explore_further
+  examples: |
+    - tell me more
+    - go deeper
+    - elaborate
+    - can you expand on that?
+
+- intent: help
+  examples: |
+    - help
+    - I need help
+    - can you help me?
+    - what can you do?
+

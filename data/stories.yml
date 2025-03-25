@@ -1,0 +1,159 @@
+version: "3.1"
+
+stories:
+
+- story: Interactive conversation with OpenAI (general)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_openai
+  - action: action_openai_chat
+  - intent: affirm
+  - action: utter_happy
+
+- story: User feeling unhappy
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: User feeling great
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+
+- story: Curious user exploring topic deeply
+  steps:
+  - intent: ask_openai
+  - action: action_openai_chat
+  - intent: explore_further
+  - action: action_openai_chat
+
+- story: Conversation with clarification
+  steps:
+    - intent: clarification
+    - action: utter_clarification
+    - intent: affirm
+    - action: utter_happy
+
+- story: User explicitly asks to log an important message
+  steps:
+  - intent: log_conversation
+  - action: action_log_conversation
+
+- story: Bot challenged by user
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: log conversation story
+  steps:
+  - intent: log_conversation
+  - action: action_log_conversation
+
+- story: OpenAI Chat Story
+  steps:
+  - intent: ask_openai
+  - action: action_openai_chat
+
+- story: ask about memory
+  steps:
+  - intent: ask_about_memory
+  - action: utter_ask_about_memory
+
+- story: ask about personality
+  steps:
+  - intent: ask_about_personality
+  - action: utter_ask_about_personality
+
+- story: ask about goals
+  steps:
+  - intent: ask_about_goals
+  - action: utter_ask_about_goals
+
+# Story 2: User asks to explore a topic, and the bot responds
+- story: respond to explore topic
+  steps:
+    - intent: explore_topic
+    - action: action_openai_chat
+
+# Story 3: User asks something out of scope, and the bot responds
+- story: respond to out of scope
+  steps:
+    - intent: out_of_scope
+    - action: utter_out_of_scope
+
+# Story 4: User thanks the bot, and the bot responds
+- story: respond to thanks
+  steps:
+    - intent: thank
+    - action: utter_thanks
+
+# Story 5: User asks for help, and the bot responds
+- story: respond to help
+  steps:
+    - intent: help
+    - action: utter_help
+
+- story: User explores a topic
+  steps:
+  - intent: explore_topic
+  - action: action_openai_chat
+
+- story: User thanks the bot
+  steps:
+  - intent: thank
+  - action: utter_thanks
+
+- story: User greets the bot
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: User says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: User affirms
+  steps:
+  - intent: affirm
+  - action: utter_happy
+
+- story: User denies
+  steps:
+  - intent: deny
+  - action: utter_clarification
+
+- story: User asks about personality
+  steps:
+  - intent: ask_about_personality
+  - action: utter_ask_about_personality
+
+- story: User asks about memory
+  steps:
+  - intent: ask_about_memory
+  - action: utter_ask_about_memory
+
+- story: User challenges the bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: User asks for help
+  steps:
+  - intent: help
+  - action: utter_help
+
+- story: User is in a great mood
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+
+- story: User is unhappy
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help

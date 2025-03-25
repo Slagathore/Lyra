@@ -1,0 +1,91 @@
+=== SYSTEM INFORMATION ===
+OS: win32 10.0.22631 (x64)
+Node.js version: v22.14.0
+CPU: 12th Gen Intel(R) Core(TM) i7-12700K x 20
+Memory: 48 GB
+Free memory: 27 GB
+
+=== GPU INFORMATION ===
+Wed Mar 19 04:02:19 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 572.70                 Driver Version: 572.70         CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 4070 Ti   WDDM  |   00000000:01:00.0  On |                  N/A |
+|  0%   39C    P8             13W /  285W |    1940MiB /  12282MiB |     13%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            2084    C+G   ...y\StartMenuExperienceHost.exe      N/A      |
+|    0   N/A  N/A            6688    C+G   ...s\Mullvad VPN\Mullvad VPN.exe      N/A      |
+|    0   N/A  N/A           12824    C+G   C:\Windows\explorer.exe               N/A      |
+|    0   N/A  N/A           12880    C+G   ...lus\logioptionsplus_agent.exe      N/A      |
+|    0   N/A  N/A           13588    C+G   ...5n1h2txyewy\TextInputHost.exe      N/A      |
+|    0   N/A  N/A           13616    C+G   ..._cw5n1h2txyewy\SearchHost.exe      N/A      |
+|    0   N/A  N/A           15468    C+G   ...s\Lively Wallpaper\Lively.exe      N/A      |
+|    0   N/A  N/A           16088    C+G   ....0.3124.72\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A           16704    C+G   ...2p2nqsd0c76g0\app\ChatGPT.exe      N/A      |
+|    0   N/A  N/A           18152    C+G   ...l\Programs\Opera GX\opera.exe      N/A      |
+|    0   N/A  N/A           19004    C+G   C:\Windows\explorer.exe               N/A      |
+|    0   N/A  N/A           19312    C+G   ...App_cw5n1h2txyewy\LockApp.exe      N/A      |
+|    0   N/A  N/A           20120    C+G   ...ntrolPanel\SystemSettings.exe      N/A      |
+|    0   N/A  N/A           22992    C+G   ....0.3124.72\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A           23012    C+G   ...yb3d8bbwe\Notepad\Notepad.exe      N/A      |
+|    0   N/A  N/A           28892    C+G   ...l\Programs\Opera GX\opera.exe      N/A      |
+|    0   N/A  N/A           31996    C+G   ...em_tray\lghub_system_tray.exe      N/A      |
+|    0   N/A  N/A           32028    C+G   ...8bbwe\PhoneExperienceHost.exe      N/A      |
+|    0   N/A  N/A           32940    C+G   ...cord\app-1.0.9186\Discord.exe      N/A      |
+|    0   N/A  N/A           33088    C+G   ...grams\LM Studio\LM Studio.exe      N/A      |
+|    0   N/A  N/A           33252    C+G   ...ms\Microsoft VS Code\Code.exe      N/A      |
+|    0   N/A  N/A           33812      C   ...grams\LM Studio\LM Studio.exe      N/A      |
+|    0   N/A  N/A           34560    C+G   ...__kzh8wxbdkxb8p\DCv2\DCv2.exe      N/A      |
+|    0   N/A  N/A           35408    C+G   ...efSharp.BrowserSubprocess.exe      N/A      |
+|    0   N/A  N/A           41076    C+G   ...xyewy\ShellExperienceHost.exe      N/A      |
++-----------------------------------------------------------------------------------------+
+
+
+=== PACKAGE INSPECTION ===
+Package dependencies: { '@llama-node/llama-cpp': '^0.1.6' }
+
+=== NATIVE MODULE BINDINGS ===
+Binding directory not found!
+
+=== MODULE LOADING TEST ===
+ERROR loading module: Cannot find module '@llama-node/llama-cpp'
+Require stack:
+- g:\AI\Lyra\debug_node_llama_detailed.js
+Error: Cannot find module '@llama-node/llama-cpp'
+Require stack:
+- g:\AI\Lyra\debug_node_llama_detailed.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (g:\AI\Lyra\debug_node_llama_detailed.js:74:21)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+
+=== MODEL FILE CHECK ===
+Model path from script: G:\\AI\\Lyra\\BigModes\\Qwen2.5-QwQ-35B-Eureka-3-ablit-uncen-gguf\\Qwen2.5-QwQ-35B-Eureka-Cubed-abliterated-uncensored-D_AU-Q6_k.gguf
+✓ Model file exists
+Model size: 27166.68 MB
+
+=== RECOMMENDATIONS ===
+If you're having issues:
+1. Try installing with: npm install @llama-node/llama-cpp@latest --build-from-source
+2. Make sure you have Visual Studio Build Tools installed (for Windows)
+3. Check if your model file exists and is accessible
+4. Consider using a smaller model for initial testing
+
+=== END OF DIAGNOSTIC INFO ===

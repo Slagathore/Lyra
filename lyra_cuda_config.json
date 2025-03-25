@@ -1,0 +1,18 @@
+{
+  "cuda": {
+    "path": "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8",
+    "version": "v12.8",
+    "enabled": true,
+    "bin_path": "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\\bin",
+    "nvcc_path": "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\\bin\\nvcc.exe",
+    "cudnn_path": "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\\lib\\x64"
+  },
+  "llama_cpp": {
+    "cuda_layers": 35,
+    "env_vars": {
+      "GGML_CUDA_NO_PINNED": "1",
+      "GGML_CUDA_FORCE_MMQ": "1",
+      "GGML_CUDA_MEM_PERCENT": "90"
+    }
+  }
+}

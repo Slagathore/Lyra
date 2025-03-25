@@ -1,0 +1,8 @@
+{
+  "model_name": "Haphazard-v1.1-24b.i1-Q4_K_M",
+  "model_path": "G:\\AI\\Lyra\\BigModes\\TT Models\\Haphazard-v1.1-24b.i1-Q4_K_M.gguf",
+  "model_type": "llama",
+  "format": "default",
+  "context_size": 4096,
+  "n_gpu_layers": 24
+}

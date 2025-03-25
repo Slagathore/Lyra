@@ -1,0 +1,10 @@
+{
+  "session_id": "session_1742457030",
+  "timestamp": 1742457046.3660579,
+  "history": [
+    [
+      "hi there",
+      "Error: No model loaded. Please load a model first from the dropdown menu."
+    ]
+  ]
+}

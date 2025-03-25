@@ -1,0 +1,89 @@
+{
+  "model": {
+    "path": "G:\\AI\\Lyra\\BigModes\\Qwen2.5-QwQ-35B-Eureka-3-ablit-uncen-gguf\\Qwen2.5-QwQ-35B-Eureka-Cubed-abliterated-uncensored-D_AU-Q6_k.gguf",
+    "type": "llama.cpp",
+    "n_ctx": 8192,
+    "n_batch": 512,
+    "n_gpu_layers": 33,
+    "use_mlock": true,
+    "advanced": {
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "repetition_penalty": 1.1,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "smoothing_factor": 0.15
+    }
+  },
+  "memory": {
+    "persistence_path": "G:\\AI\\Lyra\\memory",
+    "text_cleaning": true,
+    "memory_index_type": "faiss",
+    "long_term_memory": true,
+    "memory_categories": ["personal", "factual", "procedural", "episodic"]
+  },
+  "image_model": {
+    "type": "flux",
+    "path": "G:\\AI\\Full Models\\FLUX.1-dev",
+    "model_id": "black-forest-labs/FLUX.1-dev",
+    "use_local": true,
+    "torch_dtype": "bfloat16",
+    "enable_cpu_offload": true,
+    "default_height": 1024,
+    "default_width": 1024,
+    "guidance_scale": 3.5,
+    "num_inference_steps": 50,
+    "max_sequence_length": 512
+  },
+  "video_model": {
+    "enabled": true,
+    "type": "comfyui",
+    "path": "G:\\AI\\Lyra\\BigModes\\ComfyUI_GGUF_windows_portable",
+    "model": "wan2.1",
+    "workflow_path": "G:\\AI\\Lyra\\BigModes\\ComfyUI_GGUF_windows_portable\\workflows\\wan_t2v_workflow.json",
+    "launch_cmd": "G:\\AI\\Lyra\\BigModes\\ComfyUI_GGUF_windows_portable\\run_gpu.bat",
+    "api_url": "http://127.0.0.1:8188"
+  },
+  "tts_model": {
+    "enabled": true,
+    "type": "phi4",
+    "path": "G:\\AI\\Lyra\\BigModes\\Phi-4",
+    "voice": "natural"
+  },
+  "stt_model": {
+    "enabled": true,
+    "type": "phi4",
+    "path": "G:\\AI\\Lyra\\BigModes\\Phi-4"
+  },
+  "3d_model": {
+    "enabled": true,
+    "type": "blenderllm",
+    "path": "G:\\AI\\Lyra\\BigModes\\blenderLLM"
+  },
+  "web": {
+    "enabled": true,
+    "search_enabled": true,
+    "url_reading_enabled": true,
+    "search_provider": "duckduckgo",
+    "cache_duration": 3600
+  },
+  "telegram": {
+    "enabled": true,
+    "bot_token": "7797164236:AAH-hkzzrlFZ8Eo2DNYNeepNrXlt_sWXUJo",
+    "allowed_user_ids": [20899497]
+  },
+  "external_tools": {
+    "sillytavern_path": "G:\\AI\\Lyra\\BigModes\\SillyTavern",
+    "llama_cpp_path": "G:\\AI\\Lyra\\BigModes\\ComfyUI_GGUF_windows_portable\\ComfyUI",
+    "llama_cpp_fallback_path": "G:\\AI\\Lyra\\BigModes\\llama.cpp"
+  },
+  "path_additions": [
+    "C:\\Users\\Cole\\AppData\\Roaming\\Python\\Python313\\Scripts"
+  ],
+  "ui": {
+    "enabled": true,
+    "type": "web",
+    "port": 7860,
+    "host": "0.0.0.0"
+  }
+}

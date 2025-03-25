@@ -1,0 +1,33 @@
+{
+  "model": {
+    "path": "G:\\AI\\Lyra\\BigModes\\Qwen2.5-QwQ-35B-Eureka-3-ablit-uncen-gguf\\Qwen2.5-QwQ-35B-Eureka-Cubed-abliterated-uncensored-D_AU-Q6_k.gguf",
+    "ctx_size": 2048,
+    "gpu_layers": 35,
+    "n_batch": 128,
+    "n_threads": 6
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8000
+  },
+  "environment": {
+    "cuda_visible_devices": "0",
+    "ggml_cuda_no_pinned": "1",
+    "ggml_cuda_force_mmq": "1",
+    "ggml_cuda_mem_percent": "90",
+    "ggml_cuda_dmmv_x": "32"
+  },
+  "paths": {
+    "root": "G:\\AI\\Lyra",
+    "data": "G:\\AI\\Lyra\\data",
+    "logs": "G:\\AI\\Lyra\\logs",
+    "temp": "G:\\AI\\Lyra\\temp",
+    "cuda": "G:\\NVIDIA\\CUDA"
+  },
+  "cuda": {
+    "enabled": true,
+    "driver_version": "525.105.17",
+    "low_vram_mode": false,
+    "allow_fp16": true
+  }
+}

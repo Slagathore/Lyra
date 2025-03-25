@@ -1,0 +1,14 @@
+{
+    "files.readonlyInclude": {
+        "{**/.c4z/.extsrcs/*.PROTSYM.cbl,**/.c4z/.extsrcs/*.PROTSYM.listing}": true
+    },
+    "workbench.editor.enablePreview": true,
+    "editor.experimentalGpuAcceleration": "off",
+    "editor.linkedEditing": true,
+    "diffEditor.maxFileSize": 0,
+    "workbench.editor.enablePreviewFromCodeNavigation": false,
+    "cmake.ignoreCMakeListsMissing": true,
+    "git.ignoreLimitWarning": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "role": "user",
+    "content": "hello",
+    "timestamp": 1742424637.158463
+  },
+  {
+    "role": "assistant",
+    "content": "Error: Llama.generate() got an unexpected keyword argument 'max_tokens'",
+    "timestamp": 1742424637.158463
+  },
+  {
+    "role": "user",
+    "content": "hey there",
+    "timestamp": 1742453823.0250328
+  },
+  {
+    "role": "assistant",
+    "content": "Error: Llama.generate() got an unexpected keyword argument 'max_tokens'",
+    "timestamp": 1742453823.026038
+  },
+  {
+    "role": "user",
+    "content": "hi there",
+    "timestamp": 1742453922.636998
+  },
+  {
+    "role": "assistant",
+    "content": "Error: Model not loaded",
+    "timestamp": 1742453922.636998
+  }
+]

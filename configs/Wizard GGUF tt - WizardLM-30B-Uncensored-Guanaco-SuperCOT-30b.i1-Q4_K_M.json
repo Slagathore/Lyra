@@ -1,0 +1,8 @@
+{
+  "model_name": "Wizard GGUF tt - WizardLM-30B-Uncensored-Guanaco-SuperCOT-30b.i1-Q4_K_M",
+  "model_path": "G:\\AI\\Lyra\\BigModes\\TT Models\\Wizard GGUF tt\\WizardLM-30B-Uncensored-Guanaco-SuperCOT-30b.i1-Q4_K_M.gguf",
+  "model_type": "llama",
+  "format": "wizard",
+  "context_size": 4096,
+  "n_gpu_layers": 24
+}

@@ -32,6 +32,8 @@ venv/
 .venv
 env/
 *credentials*.json
+*credentials*
+*secure*
 *secure*.json
 *api*.json
 config/*credentials*.json

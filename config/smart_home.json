@@ -1,0 +1,23 @@
+{
+  "living_room_light": {
+    "name": "Living Room Light",
+    "type": "light",
+    "status": "off",
+    "commands": [
+      "on",
+      "off",
+      "dim"
+    ]
+  },
+  "thermostat": {
+    "name": "Main Thermostat",
+    "type": "climate",
+    "status": "72\u00b0F",
+    "commands": [
+      "set_temperature",
+      "mode_heat",
+      "mode_cool",
+      "off"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+To use the environment in the future, run:
+    call C:\Users\Cole\miniconda3\Scripts\activate.bat
+    conda activate llama-cuda-env
+
+Creating a shortcut script to activate the environment...
+
+You can now run llama_cuda_env.bat to activate the environment.

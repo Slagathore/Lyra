@@ -1,0 +1,1 @@
+Wan 2.1 repackaged for ComfyUI use. For examples see: https://comfyanonymous.github.io/ComfyUI_examples/wan

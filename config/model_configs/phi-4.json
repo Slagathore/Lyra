@@ -1,0 +1,17 @@
+{
+  "model_name": "phi-4",
+  "model_path": "G:\\AI\\Lyra\\BigModes\\Phi-4-multimodal-instruct-abliterated",
+  "model_type": "phi",
+  "parameters": {
+    "format": "multimodal",
+    "vision_enabled": true,
+    "audio_enabled": true,
+    "speech_enabled": true,
+    "context_size": 131072,
+    "use_transformers": true,
+    "trust_remote_code": true,
+    "attn_implementation": "flash_attention_2",
+    "torch_dtype": "bfloat16",
+    "n_gpu_layers": -1
+  }
+}
